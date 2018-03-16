@@ -1,0 +1,209 @@
+.BodyPandaClass{
+    margin-top: 50px;
+    background: black url("../image/background1.jpg") no-repeat;
+}
+
+.BodyMouseClass{
+    margin-top: 50px;
+    background: black url("../image/background2.jpg") no-repeat;
+}
+
+@-webkit-keyframes 'Blur' {
+    0% {
+        -webkit-filter: blur(0px);
+    }
+    100% {
+        -webkit-filter: blur(5px);
+    }
+}
+
+@-webkit-keyframes 'ShowMsg' {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blur {
+    -webkit-animation-name: 'Blur';
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-filter: blur(5px);
+}
+
+.MsgDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+.MsgDiv p {
+    margin-top: 200px;
+    opacity: 1;
+    font-size: 80px;
+    color: red;
+    text-align: center;
+    -webkit-animation-name: 'ShowMsg';
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+}
+
+p{
+    font-size: 35px;
+    color: rgb(143, 125, 125);
+    margin-bottom: 30px;
+}
+
+#Container{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#Time,#Steps{
+    color: rgb(143, 125, 125);
+}
+
+#Time{
+    margin: 0px 140px 10px 2px;
+}
+
+#Steps input{
+    text-align: right;
+}
+
+input{
+    width: 50px;
+}
+
+#ImgContainer{
+    width: 360px;
+    height: 360px;
+    margin: 10px auto;
+}
+
+.panda,.mouse{
+    float: left;
+    width: 88px;
+    height: 88px;
+    overflow: hidden;
+}
+
+.panda{
+    border: 1px solid white;
+    background-image: url(../image/panda.jpg);
+}
+
+.mouse{
+    border: 1px solid gray;
+    background-image: url(../image/Mouse.jpg);
+}
+
+.panda:not(#Block16):hover,.mouse:not(#Block16):hover{
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition:  all 0.3s;
+    -ms-transition: all 0.3s;
+}
+
+#Block1{
+    background-position: 0px 0px;
+}
+
+#Block2{
+    background-position: -88px 0px;
+}
+
+#Block3{
+    background-position: -176px 0px;
+}
+
+#Block4{
+    background-position: -264px 0px;
+}
+
+#Block5{
+    background-position: 0px -88px;
+}
+
+#Block6{
+    background-position: -88px -88px;
+}
+
+#Block7{
+    background-position: -176px -88px;
+}
+
+#Block8{
+    background-position: -264px -88px;
+}
+
+#Block9{
+    background-position: 0px -176px;
+}
+
+#Block10{
+    background-position: -88px -176px;
+}
+
+#Block11{
+    background-position: -176px -176px;
+}
+
+#Block12{
+    background-position: -264px -176px;
+}
+
+#Block13{
+    background-position: 0px -264px;
+}
+
+#Block14{
+    background-position: -88px -264px;
+}
+
+#Block15{
+    background-position: -176px -264px;
+}
+
+#Block16{
+    background: white;
+}
+
+#BtnContainer{
+    margin-top: 30px;
+}
+
+#BtnContainer button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0px;
+    margin-right: 15px;
+    font-weight: bold;
+    outline: none;
+}
+
+button.BtnPandaClass:active,button.BtnMouseClass:active{
+	color: yellow;
+}
+
+.BtnPandaClass{
+    color: white;
+    background-color:#4a86e8;
+}
+
+.BtnMouseClass{
+    color: black;
+    background-color: rgb(196, 197, 199);
+}

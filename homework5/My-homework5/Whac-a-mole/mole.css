@@ -1,0 +1,49 @@
+#All-Contents {
+	margin:auto;
+	width:700px;
+	height:800px;
+	text-align:center;	
+}
+
+#nav{
+	margin:auto;
+	width:500px;
+	text-align:right;
+}
+
+button{
+	width: 200px;
+	float: left;
+}
+
+input{
+	width:50px;
+}
+
+#map{
+	margin: auto;
+	margin-top: 30px;
+	padding-top: 10px;
+	width: 430px;
+	height: 260px;
+	border-top: solid 1px rgba(209,209,209,1);
+	border-bottom: solid 1px rgba(209,209,209,1);
+}
+
+.old_mole{
+	width: 30px;
+	height: 30px;
+	margin: 6px; 
+	padding: 0px;
+	border: solid 1px gray;
+	border-radius: 50%;
+	outline: none;
+}
+
+.new_mole{
+	border: solid 10px rgba(147,192,240,1);
+}
+
+#instruction{
+	text-align:left;
+}
