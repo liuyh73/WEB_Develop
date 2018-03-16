@@ -1,0 +1,32 @@
+h1{
+	font-size:50px;
+	color:#930;
+	text-align:center;
+	background-color:yellow
+}
+h2{
+	color:red;
+	font-family:"Times New Roman"
+}
+body{
+	background-color:white;
+	background-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+	background-repeat: repeat;
+	background-attachment:fixed;
+	color:#404040;
+	font-family:"Microsoft YaHei"
+}
+p{
+	font-size:11pt
+}
+b{
+	font-size:15pt
+}
+div{
+	text-align:center;
+	margin:0 auto
+}
+img{
+	width:600px;
+	height:600px
+}

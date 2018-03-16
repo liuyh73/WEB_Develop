@@ -1,0 +1,126 @@
+/*
+	second homework for Web Site Design
+  	author: LYH
+ */
+body{
+    background-image: url("image/background.png");
+    font-size: 8pt;
+    font-family: Verdana,Tahoma,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    font-family: Tahoma,Verdana,sans-serif;
+}
+
+#Banner{
+    height: 50px;
+    text-align: center;
+    background-image: url("image/bannerbackground.png");
+    background-repeat: repeat-x;
+}
+
+#AllContent{
+    margin: 0px auto;
+    border: 4px gray solid;
+    width: 800px;
+    overflow: visible;
+}
+
+#RightContent{
+    background-color: #A2B964;
+    float: right;
+    width: 250px;
+    font-family: Arial,sans-serif;
+}
+
+#RightContent dl{
+    padding: 10px;
+    margin: 0px;
+}
+
+#RightContent dt{
+	margin-top: 1em;
+    font-weight: bold;
+}
+
+#RightContent dt.FirstDt{
+	margin-top: 0em;
+}
+#LeftContent{
+    float: left;
+    width: 550px;
+}
+
+#LeftContentTop{
+    height: 83px;
+    width: 550px;
+    background-image: url("image/rottenbackground.png");
+    background-repeat: repeat-x;
+    color: white;
+}
+
+#LeftContentTop img{
+	vertical-align: bottom;
+}
+
+#LeftContentTop span{
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+
+#LeftContentOne{
+    float: left;
+    width: 47%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+#LeftContentTwo{
+    float: right;
+    width: 47%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+#LeftContentOne img, #LeftContentTwo img{
+    border: none;
+    float:left;
+    margin-right: 5px;
+}
+.Comment{
+    overflow: hidden;
+    padding: 8px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    background-color: #E1D697;
+}
+.People{
+	overflow:hidden;
+    margin-bottom: 3em;
+}
+.People span{
+    font-style: italic;
+}
+
+#Footer{
+    vertical-align: bottom;
+    clear:both;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    background-color: #A2B964;
+}
+
+#Link{
+    border: 0px;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+}

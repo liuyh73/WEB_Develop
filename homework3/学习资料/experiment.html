@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<style>
+	#text-one{
+		color: #1E90FF;
+		background: #000000;
+		text-shadow: 0 0 7px #1E90FF;
+	}
+	#text-two{
+		text-shadow: 0 6px 4px #85c226,
+					-3px -5px 4px #fe2192,
+					3px -5px 4px #f7e200;
+	}
+	#text-three{
+		color: #CCCCCC;
+		background: #CCCCCC;
+		text-shadow: -1px -1px 0px #666666,
+					  1px  1px 0px #FFFFFF;
+	}
+	#text-four{
+		color: #CCCCCC;
+		background: #CCCCCC;
+		text-shadow: 1px 1px 0px #666666,
+					 -1px -1px 0px #FFFFFF;
+	}
+	#box-outer-one{
+		width: 125px;
+		margin: 5px 0px 5px 10px;
+		padding: 2px 5px 2px 5px;
+		border: solid 2px blue;
+		box-shadow: 20px 10px 20px 0px blue;
+	}
+	#box-outer-two{
+		width: 125px;
+		margin: 20px 0px 5px 10px;
+		padding: 2px 5px 2px 5px;
+		border: solid 2px green;
+		box-shadow: -20px 10px 20px 0px green;
+	}
+	#box-inner-three{
+		width: 125px;
+		margin: 20px 0px 5px 10px;
+		padding: 2px 5px 2px 5px;
+		border: solid 2px #222;
+		box-shadow:inset -10px 10px 20px 0px #222;
+	}
+	#box-inner-four{
+		width: 125px;
+		margin: 20px 0px 5px 10px;
+		padding: 2px 5px 2px 5px;
+		border: solid 2px #666;
+		box-shadow:inset 0px 0px 20px 0px #666;
+	}
+	#Transform-Transition{
+		float: left;
+		margin-top: 50px;
+		padding: 5px 5px;
+	}
+	#Transform-Transition:hover{
+		transform: rotate(10deg) translateX(45px) scale(1.2);
+		transition-duration: 0.2s;
+		transition-timing-function: ease-out;
+		transition-delay: 0.5s; 
+		/*background-color: red;*/
+	}
+</style>
+<html>
+	<body>
+		<p id="text-one">CSS Text Effects</p>
+		<p id="text-two">CSS Text Effects</p>
+		<p id="text-three">CSS Text Effects</p>
+		<p id="text-four">CSS Text Effects</p>
+		<div id="box-outer-one">Example outset</div>
+		<div id="box-outer-two">Example outset</div>
+		<div id="box-inner-three">Example inset</div>
+		<div id="box-inner-four">Example inset</div>
+
+		<p id="Transform-Transition">CSS Text Effects</p>
+	</body>
+</html>
