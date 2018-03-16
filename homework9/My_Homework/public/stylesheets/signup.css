@@ -1,0 +1,85 @@
+body{
+    background: url('../images/signup.jpg') no-repeat fixed;
+    background-size: 100%;
+}
+
+.Container{
+    background-color: rgba(255,255,255, 0.4);
+    opacity: 0.8;
+
+    width: 360px;
+    height: 580px;
+    position: absolute;
+    top: 80px;
+    left: 38%;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,.156863), 0 3px 10px rgba(0,0,0,.227451);
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+form div{
+    display: inline-block;
+    width: 70px;
+}
+
+input{
+    width: 150px;
+    border: 2px white inset;
+    outline: none;
+}
+
+span[id$="Check"]{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+span.msg{
+    height: 1em;
+    font-size: 15px;
+    color: red;
+    text-decoration: underline;
+}
+
+.repeatMsg{
+    margin: 9px 0px;
+    color: red;
+    height: 15px;
+    line-height: 15px;
+    font-size: 15px;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+button{
+    width: 90px;
+    height: 25px;
+    padding: 0px;
+    outline: none;
+    border: 0px;
+    margin: 0px 10px 10px 10px;
+    
+    font-weight: bold;
+    background-color: rgb(193,224,220);
+}
+
+#signin{
+    width: 200px;
+}
+
+#reset:hover{
+    background-color: #f58383;
+}
+
+#submit:hover{
+    background-color: #a3fe83;
+}
+
+#signin:hover{
+    background-color: rgb(165,210,205);
+}

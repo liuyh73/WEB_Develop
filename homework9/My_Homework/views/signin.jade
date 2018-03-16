@@ -1,0 +1,25 @@
+doctype html
+html
+    head
+        title 登陆
+        meta(charset="utf-8")
+        link(rel="icon" href="/images/icon.png")
+        link(rel="stylesheet" type="text/css" href="/stylesheets/signin.css")
+        script(type='text/javascript' src='/javascripts/jquery-3.1.0.js')
+        script(type="text/javascript" src="/javascripts/signin.js")
+
+    body
+        div.Container
+            img(src="/images/boat.png")
+            form(method="post")
+                span 输入用户名: 
+                input(type="text" id="username" name="username" placeholder="Username" value=user.username)
+                span 输入密码: 
+                input(type="password" id="password" name="password" placeholder="Password" )
+                <br/>
+                a(href="/regist")
+                    button(type="button" id="regist") 注册
+                button(type="submit" id="signin") 登陆
+                <br/>
+                if error
+                    p(class="msg")!= error

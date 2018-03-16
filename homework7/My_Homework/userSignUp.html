@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up!</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/Sign.css" />
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-3.1.0.js" ></script>
+        <script type="text/javascript" src="js/Sign.js"></script>
+    </head>
+    <body>
+        <div class="Container">
+            <h1>Sign up!</h1>
+            <form method="post">
+                <p>
+                    <div><label for="username">Username: </label></div>
+                    <input type="text" id="username" name="username" placeholder="Username" /> 
+                    <span id="usernameCheck"></span><br/>
+                    <span class="msg">6~18位英文字母,数字或下划线;英文字母开头</span>
+                </p>
+                <p>
+                    <div><label for="id">Idnumber: </label></div>
+                    <input type="text" id="id" name="id" placeholder="Id" /> 
+                    <span id="idCheck"></span><br/>
+                    <span class="msg">8位数字,不能以0开头</span>
+                </p>
+                <p>
+                    <div><label for="telphone">Telphone: </label></div>
+                    <input type="text" id="telphone" name="telphone" placeholder="Telphone" /> 
+                    <span id="telphoneCheck"></span><br/>
+                    <span class="msg">11位数字,不能以0开头</span>
+                </p>
+                <p>
+                    <div><label for="email">Email: </label></div>
+                    <input type="text" id="email" name="email" placeholder="Email" /> 
+                    <span id="emailCheck"></span><br/>
+                    <span class="msg">按照讲义中的规则,不能有数字或特殊字符</span>
+                </p>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button><br/>
+                <span class="msg">请正确填写信息之后再提交!</span>
+
+            </form>
+        </div>
+    </body>
+</html>

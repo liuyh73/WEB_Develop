@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        title 用户详情
+        meta(charset="utf-8")
+        link(rel="icon" href="images/icon.png")
+        link(rel="stylesheet" type="text/css" href="stylesheets/detail.css")
+
+    body
+        p=error
+        div(class="Container")
+            h1 用户详情
+            form
+                p
+                    div 用户名: 
+                    span=user.username
+                p
+                    div 学  号: 
+                    span=user.id
+                p
+                    div 电  话: 
+                    span=user.telphone
+                p
+                    div 邮  箱: 
+                    span=user.email
+                a(href="/logout")
+                    button(type="button") 退出登录

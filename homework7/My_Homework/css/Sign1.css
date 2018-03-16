@@ -1,0 +1,27 @@
+body{
+    background: url('../image/background2.jpg') no-repeat black fixed;
+    background-size: 100%;
+}
+
+.Container{
+    width: 280px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border: 2px outset white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+form div{
+    display: inline-block;
+    width: 70px;
+    color: #9A9A9A;
+}
+
+input{
+    width: 100px;
+    border: 2px white inset;
+    outline: none;
+}

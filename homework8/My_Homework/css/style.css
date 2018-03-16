@@ -1,0 +1,232 @@
+#bottom-positioner{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+#button{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 230px;
+    left: 150px;
+}
+
+#info-bar{ 
+    z-index: 2;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    transform: scale(0.15);
+    -o-transform: scale(0.15);
+    -ms-transform: scale(0.15);
+    -moz-transform: scale(0.15);
+    -webkit-transform: scale(0.15);
+
+    transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+
+}
+
+#at-plus-container > p{
+    border: outset 2px gray;
+    margin-left: 38%;
+    margin-top: 30px;
+    width: 360px;
+    height: 135px;
+    text-align: left;
+}
+
+p{
+    text-align: center;
+    color: rgba(48,63,159,1);
+}
+
+.info{
+    background: gray;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    line-height: 130px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#control-ring-container{
+    z-index: 1;
+    position: absolute;
+    top: -60px;
+    left: -55px;
+    width: 150px;
+    height: 150px;
+    transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+
+    transform: scale(0.1);
+    -o-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+}
+
+#control-ring-container ul{
+    list-style-type: none;
+}
+
+li{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background: gray;
+    text-align: center;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+#control-ring-container ul .mask{
+    top: 20px;
+    left: 20px;
+}
+
+#control-ring-container ul .history{
+    top: 52px;
+    left: 0px;
+}
+
+#control-ring-container ul .message{
+    top: 90px;
+    left: 10px;
+}
+
+#control-ring-container ul .setting{
+    top: 110px;
+    left: 45px;
+}
+
+#control-ring-container ul .sign{
+    top: 100px;
+    left: 80px;
+}
+
+.number{
+    display: block;
+    width: 15px;
+    height: 15px;
+    color: white;
+    font-size: 5px;
+    background-color: red;
+    padding: 0px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+
+    position: relative;
+    top: -31px;
+    left: 15px;
+}
+
+.hide{
+    display: none;
+}
+
+.enable{
+    background-color: rgba(48,63,159,1);
+}
+
+.apb{
+    position: absolute;
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.apb .icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transition: 0.5s;
+    -o-transition: 0.5s; 
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    background: url("../images/atplus_white.png") no-repeat center;
+}
+
+#button:hover .icon{
+    width: 50px;
+    height: 50px;
+    background: url("../images/atplus_green.png") no-repeat rgba(48,63,159,1) center;
+    background-size: 45px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transform: translate(-10px,-10px);
+    -o-transform: translate(-10px,-10px);
+    -ms-transform: translate(-10px,-10px);
+    -moz-transform: translate(-10px,-10px);
+    -webkit-transform: translate(-10px,-10px);
+    transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+#button:hover #info-bar{
+    transform: translate(0px,-120px);
+    -o-transform: translate(0px,-120px);
+    -ms-transform: translate(0px,-120px);
+    -moz-transform: translate(0px,-120px);
+    -webkit-transform: translate(0px,-120px);
+
+    transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+#button:hover #control-ring-container{
+    transform: translate(0px,0px);
+    -o-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
+    -webkit-transform: translate(0px,0px);
+
+    transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+#button li:hover{
+    transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+
+    transition: 0.5s 0.1s;
+    -o-transition: 0.5s 0.1s;
+    -ms-transition: 0.5s 0.1s;
+    -moz-transition: 0.5s 0.1s;
+    -webkit-transition: 0.5s 0.1s;
+}

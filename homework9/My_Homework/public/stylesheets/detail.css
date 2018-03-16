@@ -1,0 +1,53 @@
+body{
+    background: url('../images/signup.jpg') no-repeat white fixed;
+    background-size: 100%;
+    text-align: center;
+}
+
+body>p{
+    height: 50px;
+    line-height: 50px;
+    color: red;
+}
+
+.Container{
+    width: 280px;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 5px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,.156863), 0 3px 10px rgba(0,0,0,.227451);
+}
+
+.Container p{
+    margin: 28px 0px;
+}
+
+form div{
+    display: inline-block;
+    width: 60px;
+    color: #9A9A9A;
+}
+
+span{
+    display: inline-block;
+    color: gray;
+    width: 190px;
+    border: 2px white inset;
+    outline: none;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    padding: 0px;
+    outline: none;
+    border: 0px;
+    
+    background-color: rgb(193,224,220);
+}
+
+button:hover{
+    background-color: rgb(165,210,205);
+}
